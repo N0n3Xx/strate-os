@@ -1,6 +1,6 @@
 # strate-os
 
-Dotfiles that transform a stock [Ghostty](https://ghostty.org) terminal into a full work environment. No Electron, no custom builds — just config files, shell scripts, and your choice of CLI/TUI tools.
+Dotfiles that transform a stock [Ghostty](https://ghostty.org) terminal into a full work environment. No terminal emulator, just config files, shell scripts, and your choice of CLI/TUI tools.
 
 ## What You Get
 
