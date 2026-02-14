@@ -1,0 +1,16 @@
+{
+    "editor": "hx",
+    "fileBrowser": "yazi",
+    "monitor": "btop",
+    "fetchTool": "fastfetch",
+    "gitTui": "lazygit",
+    "cliTools": "eza bat fd ripgrep delta zoxide",
+    "extras": "",
+    "theme": "catppuccin frappe",
+    "font": "JetBrains Mono Nerd Font",
+    "fontSize": "14",
+    "backgroundOpacity": "0.8",
+    "backgroundBlur": "20",
+    "windowDecoration": "true",
+    "mouseHideWhileTyping": "true"
+}

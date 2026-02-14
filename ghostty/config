@@ -1,0 +1,36 @@
+# ── strate-os Ghostty Config (reference defaults) ────────
+# The installer generates the actual config at ~/.config/ghostty/config
+# with your chosen theme, font, and window settings.
+
+# Theme
+theme = catppuccin frappe
+
+# Font
+font-family = JetBrains Mono Nerd Font
+font-size = 14
+
+# Window
+background-opacity = 0.8
+background-blur-radius = 20
+window-decoration = true
+window-padding-x = 8
+window-padding-y = 4
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Shell
+shell-integration = zsh
+
+# ── Splits (Ghostty native tiling) ───────────────────────
+keybind = super+d=new_split:right
+keybind = super+shift+d=new_split:down
+keybind = super+w=close_surface
+keybind = super+alt+left=goto_split:left
+keybind = super+alt+right=goto_split:right
+keybind = super+alt+up=goto_split:top
+keybind = super+alt+down=goto_split:bottom

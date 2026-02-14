@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Launch Claude Code inside tmux for multi-agent support
+set -euo pipefail
+
+SESSION="claude-${PWD##*/}"
+
+# If already in tmux, just run claude
+if [[ -n "${TMUX:-}" ]]; then
+    exec claude "$@"
+fi
+
+# Attach to existing session or create new one
+if tmux has-session -t "$SESSION" 2>/dev/null; then
+    exec tmux attach-session -t "$SESSION"
+fi
+
+exec tmux new-session -s "$SESSION" "claude $*"
